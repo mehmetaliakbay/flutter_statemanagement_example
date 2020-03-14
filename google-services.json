@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "861971441936",
+    "firebase_url": "https://statemanagement-edf87.firebaseio.com",
+    "project_id": "statemanagement-edf87",
+    "storage_bucket": "statemanagement-edf87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861971441936:android:9395fdef38181410f7dd95",
+        "android_client_info": {
+          "package_name": "com.example.flutter_statemanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861971441936-u4811eavpgtjt875d6mshjnjb1e0afsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtRVsb89c5_TtNq4y1cMzN66JG5yH-DxU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861971441936-u4811eavpgtjt875d6mshjnjb1e0afsp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
