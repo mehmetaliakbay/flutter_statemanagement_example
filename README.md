@@ -1,6 +1,6 @@
 # flutter_statemanagement
 
-A new Flutter project.
+An example about flutter state management that includes provider, multiprovider and notifiers.
 
 ## Getting Started
 
