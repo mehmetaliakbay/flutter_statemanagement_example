@@ -23,6 +23,27 @@ class MyApp extends StatelessWidget {
                 child: Text("Provider With Firebase"),
                 color: Colors.red,
               ),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/c');
+                },
+                child: Text("StreamController Simple Page"),
+                color: Colors.purple,
+              ),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/d');
+                },
+                child: Text("BlocScreen Simple Page"),
+                color: Colors.orange,
+              ),
+              RaisedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, '/e');
+                },
+                child: Text("FlutterBlocPackage Simple Page"),
+                color: Colors.cyan[500],
+              ),
             ],
           ),
         ));

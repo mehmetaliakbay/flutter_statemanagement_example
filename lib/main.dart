@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_statemanagement/components/FireBaseSamplePage.dart';
+import 'package:flutter_statemanagement/screens/BlocScreen.dart';
+import 'package:flutter_statemanagement/screens/StreamScreen.dart';
+import 'package:flutter_statemanagement/screens/FlutterBlocScreen.dart';
 import 'package:flutter_statemanagement/services/UserRepository.dart';
 import 'package:provider/provider.dart';
 import 'models/Letter.dart';
@@ -22,6 +25,9 @@ void main() {
         '/': (BuildContext context) => MyApp(),
         '/a': (BuildContext context) => ProviderSamplePage(),
         '/b': (BuildContext context) => FireBaseSamplePage(),
+        '/c': (BuildContext context) => StreamScreen(),
+        '/d': (BuildContext context) => BlocScreen(),
+        '/e': (BuildContext context) => FlutterBlocScreen(),
       },
     ),
   ));

@@ -44,7 +44,7 @@ class ProviderSamplePage extends StatelessWidget {
                     },
                     heroTag: "btn1",
                     tooltip: 'deneme2',
-                    child: Icon(Icons.android),
+                    child: Icon(Icons.remove),
                   )
                 ],
               ),
